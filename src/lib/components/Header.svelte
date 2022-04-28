@@ -1,0 +1,21 @@
+<header class="w-full sticky top-0 flex items-center px-2 text-lg backdrop-blur-sm transition-transform ease-in md:px-6 bg-white">
+    <nav class="flex flex-grow">
+        <a href="/" class="mr-4 text-2xl font-thin md:mr-8">
+            <img src="Dedal_logo.png" class="mr-3 h-6 sm:h-9" alt="Dedal_logo" />
+            <div class="text-2xl font-semibold whitespace-nowrap">
+                Dedal
+            </div>
+        </a>
+        <ul class="mr-4 font-bold flex flex-grow items-center gap-4 md:gap-8">
+            <li>
+                <a href="/">Accueil</a>
+            </li>
+            <li>
+                <a href="/contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="flex items-center gap-4 md:gap-8">
+        <button class="bg-secondary rounded-lg font-bold text-white p-2" onclick="window.location.href='/download';" href="/download">Telecharger</button>
+    </div>
+</header>
