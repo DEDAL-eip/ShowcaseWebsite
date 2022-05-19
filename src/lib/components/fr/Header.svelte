@@ -1,9 +1,12 @@
 <script>
     import { page } from '$app/stores';
 
-    function changeToFrench() {
-        const url = "/fr" + $page.url.pathname
+    function changeToAmerican() {
+        let url = $page.url.pathname.substring(3)
+        if ($page.url.pathname.length === 3)
+            url = "/"
 
+        console.log(url)
         window.location.href=url
 	}
 </script>
@@ -18,15 +21,15 @@
         </a>
         <ul class="mr-4 font-bold flex flex-grow items-center gap-4 md:gap-8">
             <li>
-                <a href="/">Home</a>
+                <a href="/fr/">Accueil</a>
             </li>
             <li>
-                <a href="/contact">Contact</a>
+                <a href="/fr/contact">Contact</a>
             </li>
         </ul>
     </nav>
     <div class="flex items-center gap-4 md:gap-8">
-        <button on:click={changeToFrench}>🇫🇷</button>
-        <button class="bg-secondary rounded-lg font-bold text-white p-2" onclick="window.location.href='/download';" href="/download">Download</button>
+        <button on:click={changeToAmerican}>🇺🇸</button>
+        <button class="bg-secondary rounded-lg font-bold text-white p-2" onclick="window.location.href='/fr/download';" href="/fr/download">Telecharger</button>
     </div>
 </header>
