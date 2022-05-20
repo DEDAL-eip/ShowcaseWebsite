@@ -1,27 +1,28 @@
-<script lang="ts">
+
+<script>
     var video = "Tipdonosor_trailer.mp4";
 
     const download = async () => {
         console.log("DOWNLOAD")
-        console.log(video)
-        const file = new Blob([video], { type: "video/mp4"})
-        const nav = (window.navigator as any);
+        // console.log(video)
+        // const file = new Blob([video], { type: "video/mp4"})
+        // const nav = (window.navigator as any);
 
-        if (nav.msSaveOrOpenBlob) {
-            nav.msSaveOrOpenBlob(file, "file.mp4")
-        } else {
-            let a = document.createElement("a"),
-                url = URL.createObjectURL(file)
+        // if (nav.msSaveOrOpenBlob) {
+        //     nav.msSaveOrOpenBlob(file, "file.mp4")
+        // } else {
+        //     let a = document.createElement("a"),
+        //         url = URL.createObjectURL(file)
             
-            a.href = url
-            a.download = "file.mp4"
-            document.body.appendChild(a)
-            a.click()
-            setTimeout(function () {
-                document.body.removeChild(a)
-                window.URL.revokeObjectURL(url)
-            }, 0)
-        }
+        //     a.href = url
+        //     a.download = "file.mp4"
+        //     document.body.appendChild(a)
+        //     a.click()
+        //     setTimeout(function () {
+        //         document.body.removeChild(a)
+        //         window.URL.revokeObjectURL(url)
+        //     }, 0)
+        // }
     }
 </script>
 

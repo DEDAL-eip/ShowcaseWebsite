@@ -9,7 +9,7 @@
                 <a href="/" class="mr-4 hover:underline md:mr-6 ">About</a>
             </li>
             <li>
-                <a href="/contact" class="hover:underline">Contact</a>
+                <a href="/contact.html" class="hover:underline">Contact</a>
             </li>
         </ul>
     </div>

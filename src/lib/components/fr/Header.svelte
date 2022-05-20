@@ -24,12 +24,12 @@
                 <a href="/fr/">Accueil</a>
             </li>
             <li>
-                <a href="/fr/contact">Contact</a>
+                <a href="/fr/contact.html">Contact</a>
             </li>
         </ul>
     </nav>
     <div class="flex items-center gap-4 md:gap-8">
         <button on:click={changeToAmerican}>🇺🇸</button>
-        <button class="bg-secondary rounded-lg font-bold text-white p-2" onclick="window.location.href='/fr/download';" href="/fr/download">Telecharger</button>
+        <button class="bg-secondary rounded-lg font-bold text-white p-2" onclick="window.location.href='/fr/download.html';" href="/fr/download.html">Telecharger</button>
     </div>
 </header>

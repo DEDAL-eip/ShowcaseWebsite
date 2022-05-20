@@ -1,14 +1,14 @@
 <script>
-    let submitStatus;
+    let submitStatus = "";
     const submitForm = async (data) => {
       submitStatus = "submitting";
-      const formData = new FormData(data.currentTarget);
-      const res = await fetch("contact", {
-        method: "POST",
-        body: formData,
-      });
-      const { message } = await res.json();
-      submitStatus = message;
+    //   const formData = new FormData(data.currentTarget);
+    //   const res = await fetch("contact", {
+    //     method: "POST",
+    //     body: formData,
+    //   });
+    //   const { message } = await res.json();
+    //   submitStatus = message;
     };
 </script>
 
