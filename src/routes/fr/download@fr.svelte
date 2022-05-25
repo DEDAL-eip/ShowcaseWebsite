@@ -2,13 +2,13 @@
     var video = "Tipdonosor_trailer.mp4";
 
     const download = async () => {
-        console.log("DOWNLOAD")
-        console.log(video)
         const file = new Blob([video], { type: "video/mp4"})
         const nav = (window.navigator as any);
 
         if (nav.msSaveOrOpenBlob) {
             nav.msSaveOrOpenBlob(file, "file.mp4")
+            
+            window.location.href="/fr"
         } else {
             let a = document.createElement("a"),
                 url = URL.createObjectURL(file)

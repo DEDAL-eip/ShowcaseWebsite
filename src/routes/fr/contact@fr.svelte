@@ -42,7 +42,7 @@
           </div>
 
           <div class="text-center">
-            <input class="btn font-bold text-white py-5 px-12 rounded-lg shadow-lg bg-secondary" type="submit" value="Envoyer" />
+            <input class="btn font-bold text-white py-5 px-12 rounded-lg shadow-lg bg-secondary" type="submit" value="Envoyer" data-modal-toggle="defaultModal"/>
           </div>
         </form>
     {/if}
