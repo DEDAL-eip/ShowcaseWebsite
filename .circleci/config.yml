@@ -135,21 +135,21 @@ workflows:
   build_and_test:
     jobs:
       - build
-      - test:
-          requires:
-            - build
+      # - test:
+      #     requires:
+      #       - build
       - doc-dev:
           requires:
             - build
             - test
-          filters:
-            branches:
-              only:
-                - dev
+          # filters:
+          #   branches:
+          #     only:
+          #       - dev
       - build-dev:
           requires:
             - build
-            - test
+            # - test
           # filters:
           #   branches:
           #     only:
