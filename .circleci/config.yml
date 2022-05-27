@@ -32,8 +32,7 @@ jobs:
           command: npm run lint
 
   doc-dev:
-    working_directory: ~/repo
-    docker:
+    working_directory: ~/repoc
       - image: cimg/node:16.13.2
     steps:
       - checkout
@@ -48,10 +47,10 @@ jobs:
             git config credential.helper 'cache --timeout=120'
             git config user.email "thomasgilletpc@gmail.com"
             git config user.name "Thomas GILLET [CI]"
-            git pull
+            git pull origin ci/test-and-docs
             git add docs
             git commit -m ":memo: Update documentation [ci skip]"
-            git push -q origin dev
+            git push -q origin ci/test-and-docs
   
   doc-prod:
     working_directory: ~/repo
@@ -98,10 +97,10 @@ jobs:
             git config credential.helper 'cache --timeout=120'
             git config user.email "thomasgilletpc@gmail.com"
             git config user.name "Thomas GILLET [CI]"
-            git pull
+            git pull ci/test-and-docs
             git add build
             git commit -m ":rocket: Push build [ci skip]"
-            git push -q origin dev
+            git push -q origin ci/test-and-docs
 
   build-prod:
     working_directory: ~/repo
