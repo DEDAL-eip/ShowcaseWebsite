@@ -142,7 +142,7 @@ workflows:
       - doc-dev:
           requires:
             - build
-            - test
+            # - test
           # filters:
           #   branches:
           #     only:
