@@ -158,7 +158,7 @@ workflows:
       - doc-prod:
           requires:
             - build
-            - test
+            # - test
           filters:
             branches:
               only:
@@ -166,7 +166,7 @@ workflows:
       - build-prod:
           requires:
             - build
-            - test
+            # - test
           filters:
             branches:
               only:
