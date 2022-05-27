@@ -1,4 +1,6 @@
 <script>
+  const submitStatus = ""
+
   function submitForm() {
     console.log("reee")
     fetch("/api/sendmail");
