@@ -103,7 +103,7 @@ jobs:
             git commit -m ":rocket: Push build [ci skip]"
             git push -q origin dev
 
-    build-prod:
+  build-prod:
     working_directory: ~/repo
     docker:
       - image: cimg/node:16.13.2
@@ -130,6 +130,7 @@ jobs:
             git add build
             git commit -m ":rocket: Push build [ci skip]"
             git push -q origin prod
+            
 workflows:
   version: 2
   build_and_test:
