@@ -75,7 +75,61 @@ jobs:
             git commit -m ":memo: Update documentation [ci skip]"
             git push -q origin prod
   
+  build-dev:
+    working_directory: ~/repo
+    docker:
+      - image: cimg/node:16.13.2
+    steps:
+      - checkout
+      - node/install-packages:
+          pkg-manager: npm
+      - run:
+          name: Clean build folder
+          command: rm -rf build
+      - run:
+          name: Build
+          command: npm run build
+      - run:
+          name: Move files
+          command: cp public/* build/client
+      - run:
+          name: Push
+          command: |
+            git config credential.helper 'cache --timeout=120'
+            git config user.email "thomasgilletpc@gmail.com"
+            git config user.name "Thomas GILLET [CI]"
+            git pull
+            git add build
+            git commit -m ":rocket: Push build [ci skip]"
+            git push -q origin dev
 
+    build-prod:
+    working_directory: ~/repo
+    docker:
+      - image: cimg/node:16.13.2
+    steps:
+      - checkout
+      - node/install-packages:
+          pkg-manager: npm
+      - run:
+          name: Clean build folder
+          command: rm -rf build
+      - run:
+          name: Build
+          command: npm run build
+      - run:
+          name: Move files
+          command: cp public/* build/client
+      - run:
+          name: Push
+          command: |
+            git config credential.helper 'cache --timeout=120'
+            git config user.email "thomasgilletpc@gmail.com"
+            git config user.name "Thomas GILLET [CI]"
+            git pull
+            git add build
+            git commit -m ":rocket: Push build [ci skip]"
+            git push -q origin prod
 workflows:
   version: 2
   build_and_test:
@@ -92,7 +146,23 @@ workflows:
             branches:
               only:
                 - dev
+      - build-dev:
+          requires:
+            - build
+            - test
+          # filters:
+          #   branches:
+          #     only:
+          #       - dev
       - doc-prod:
+          requires:
+            - build
+            - test
+          filters:
+            branches:
+              only:
+                - prod
+      - build-prod:
           requires:
             - build
             - test
