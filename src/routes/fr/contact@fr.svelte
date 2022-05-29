@@ -4,7 +4,7 @@
 
 <div class="h-screen bg-primary bg-gradient-to-tl from-secondary">
   <div class="py-10 px-72">
-    <form action="/api/contact" method="POST" class="bg-white rounded space-y-2 p-6">
+    <form action="/api/sendMail" method="POST" class="bg-white rounded space-y-2 p-6">
       <div class="text-secondary font-bold text-center text-4xl">Nous contacter</div>
 
       <div>
