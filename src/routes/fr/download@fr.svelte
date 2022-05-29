@@ -1,20 +1,41 @@
-<script lang="ts">
-    var video = "Tipdonosor_trailer.mp4";
+<script context="module" lang="ts">
+    export const load = async({fetch}) => {
+        const res = await fetch("/api/apkVersions")
+        const data = await res.json()
+        var versions: any[] = []
 
+        data.data.map((version: string|any[]) => {
+          versions.push(version.slice(19, -4))
+        })
+
+        return {
+            props: {
+                versions
+            }
+        }
+    }
+</script>
+
+<script lang="ts">
+    export let versions
+
+    var video = "Tipdonosor_trailer.mp4";
     const download = async () => {
-        const file = new Blob([video], { type: "video/mp4"})
+        var select = document.getElementById("version_select")
+        const res = await fetch("/api/apkDownload")
+
+        const file = new Blob([video], { type: "video/apk"})
         const nav = (window.navigator as any);
 
         if (nav.msSaveOrOpenBlob) {
-            nav.msSaveOrOpenBlob(file, "file.mp4")
-            
-            window.location.href="/fr"
+            nav.msSaveOrOpenBlob(file, "Test.apk")
+            setTimeout(() => {  window.location.href="/" }, 5000);
         } else {
             let a = document.createElement("a"),
                 url = URL.createObjectURL(file)
             
             a.href = url
-            a.download = "file.mp4"
+            a.download = "Test.apk"
             document.body.appendChild(a)
             a.click()
             setTimeout(function () {
@@ -38,10 +59,9 @@
         <p class="text-2xl text-white tracking-widest">Emmenez votre guide du routard 2.0 sur votre appareil.</p>
         <div class="flex justify-center">
             <select id="version_select" class="form-select text-center font-bold appearance-none block px-3 py-1.5 text-white bg-secondary rounded-lg shadow-lg transition ease-in-out m-0" aria-label="Default select example">
-                <option value="1">v1</option>
-                <option value="2">v2</option>
-                <option value="3">v3</option>
-                <option value="4" selected>v4</option>
+                {#each versions as version}
+                    <option value={version}>{version}</option>
+                {/each}
             </select>
             
             <button class="btn font-bold text-white py-5 px-12 rounded-lg shadow-lg bg-secondary" on:click={download} type="button" data-modal-toggle="defaultModal">
