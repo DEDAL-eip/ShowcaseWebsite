@@ -65,7 +65,7 @@
             </select>
             
             <button class="btn font-bold text-white py-5 px-12 rounded-lg shadow-lg bg-secondary" on:click={download} type="button" data-modal-toggle="defaultModal">
-                Telecharger
+                Télécharger
             </button>
             
             <!-- Main modal -->
