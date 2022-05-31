@@ -8,9 +8,10 @@
     },
     "source": {
         "include": [
-            "libs/"
+            "libs/",
+            "src/routes/api"
         ],
-        "includePattern": ".+\\.ts?$",
+        "includePattern": ".+\\.(js|ts)?$",
         "excludePattern": ""
     },
     "plugins": [
