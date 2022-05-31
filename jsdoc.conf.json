@@ -8,7 +8,7 @@
     },
     "source": {
         "include": [
-            "libs/",
+            "src/lib/functions/",
             "src/routes/api"
         ],
         "includePattern": ".+\\.(js|ts)?$",

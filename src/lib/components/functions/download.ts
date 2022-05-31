@@ -1,3 +1,6 @@
+/**
+ * It downloads a file from the server and saves it to the user's computer.
+ */
 export const download = async () => {
     const video = "Tipdonosor_trailer.mp4";
     const select = document.getElementById("version_select")
