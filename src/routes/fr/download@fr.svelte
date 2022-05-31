@@ -19,33 +19,10 @@
 </script>
 
 <script lang="ts">
+    import type { download } from "$lib/components/functions/download";
+
     export let versions
-
-    var video = "Tipdonosor_trailer.mp4";
-    const download = async () => {
-        var select = document.getElementById("version_select")
-        const res = await fetch("/api/apkDownload")
-
-        const file = new Blob([video], { type: "video/apk"})
-        const nav = (window.navigator as any);
-
-        if (nav.msSaveOrOpenBlob) {
-            nav.msSaveOrOpenBlob(file, "Test.apk")
-            setTimeout(() => {  window.location.href="/" }, 5000);
-        } else {
-            let a = document.createElement("a"),
-                url = URL.createObjectURL(file)
-            
-            a.href = url
-            a.download = "Test.apk"
-            document.body.appendChild(a)
-            a.click()
-            setTimeout(function () {
-                document.body.removeChild(a)
-                window.URL.revokeObjectURL(url)
-            }, 0)
-        }
-    }
+    import { download } from "$lib/components/functions/download";
 </script>
 
 <svelte:head>
