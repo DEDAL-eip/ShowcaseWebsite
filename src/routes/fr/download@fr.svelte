@@ -8,6 +8,8 @@
           versions.push(version.slice(19, -4))
         })
 
+        versions.sort().reverse()
+
         return {
             props: {
                 versions
@@ -59,8 +61,8 @@
         <p class="text-2xl text-white tracking-widest">Emmenez votre guide du routard 2.0 sur votre appareil.</p>
         <div class="flex justify-center">
             <select id="version_select" class="form-select text-center font-bold appearance-none block px-3 py-1.5 text-white bg-secondary rounded-lg shadow-lg transition ease-in-out m-0" aria-label="Default select example">
-                {#each versions as version}
-                    <option value={version}>{version}</option>
+                {#each versions as version, index}}
+                    <option value={version} selected={index == 0 ? true : false}>{version}</option>
                 {/each}
             </select>
             
