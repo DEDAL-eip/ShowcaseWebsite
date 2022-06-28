@@ -5,7 +5,7 @@
 <section class="w-full">
     <div class="relative">
         <img src="./Lille.jpg" alt="Lille" class="h-screen w-full object-cover" />
-        <div class="font-bold absolute w-2/4 text-white text-6xl top-4 right-16">
+        <div class="font-bold absolute text-white text-6xl top-36 right-40">
             <div>
                 Organised your trip,
             </div>
@@ -30,16 +30,9 @@
             <div class="font-bold text-white text-center text-4xl">Our team:</div>
             <div class="flex justify-between">
                 <ul class="text-white my-auto space-y-12 text-xl">
-                    <li>Marc</li>
-                    <li>Eliot</li>
-                    <li>Julien</li>
-                    <li>Seraphin</li>
                 </ul>
-                <img src="./Dedals_team.jpg" alt="Dedals_team" class="h-96 rounded-xl"/>
+                <img src="./Dedals_team.png" alt="Dedals_team" class="h-126 rounded-xl items-center"/>
                 <ul class="text-white my-auto text-right space-y-12 text-xl">
-                    <li>Thomas</li>
-                    <li>Antoine</li>
-                    <li>Arthur</li>
                 </ul> 
             </div>
         </div>

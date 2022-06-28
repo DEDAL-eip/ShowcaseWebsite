@@ -8,7 +8,7 @@
 	}
 </script>
 
-<header class="w-full sticky top-0 flex items-center px-2 text-lg backdrop-blur-sm transition-transform ease-in md:px-6 bg-white">
+<header class="w-full z-50 sticky top-0 flex items-center px-2 text-lg backdrop-blur-sm transition-transform ease-in md:px-6 bg-white">
     <nav class="flex flex-grow">
         <a href="/" class="mr-4 text-2xl font-thin md:mr-8">
             <img src="/Dedal_logo.png" class="mr-3 h-6 sm:h-9" alt="Dedal_logo" />
