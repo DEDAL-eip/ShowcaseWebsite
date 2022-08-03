@@ -19,10 +19,8 @@
 </script>
 
 <script lang="ts">
-    import type { download } from "$lib/components/functions/download";
-
     export let versions
-    import { download } from "$lib/components/functions/download";
+    export let selected
 </script>
 
 <svelte:head>
@@ -37,16 +35,19 @@
         </div>
         <p class="text-2xl text-white tracking-widest">Emmenez votre guide du routard 2.0 sur votre appareil.</p>
         <div class="flex justify-center">
-            <select id="version_select" class="form-select text-center font-bold appearance-none block px-3 py-1.5 text-white bg-secondary rounded-lg shadow-lg transition ease-in-out m-0" aria-label="Default select example">
+            <select id="version_select" class="form-select text-center font-bold appearance-none block px-3 py-1.5 text-white bg-secondary rounded-lg shadow-lg transition ease-in-out m-0" aria-label="Default select example" bind:value={selected}>
                 {#each versions as version, index}}
                     <option value={version} selected={index == 0 ? true : false}>{version}</option>
                 {/each}
             </select>
-            
-            <button class="btn font-bold text-white py-5 px-12 rounded-lg shadow-lg bg-secondary" on:click={download} type="button" data-modal-toggle="defaultModal">
-                Télécharger
-            </button>
-            
+            <a
+                href={`http://localhost:8080/download_apk?version=` + selected}
+                download
+            >
+                <button class="btn font-bold text-white py-5 px-12 rounded-lg shadow-lg bg-secondary" type="button" data-modal-toggle="defaultModal">
+                    Télécharger
+                </button>
+            </a>
             <!-- Main modal -->
             <div id="defaultModal" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed z-50 w-full md:inset-0 h-modal md:h-full">
                 <div class="relative p-4 w-full max-w-2xl h-full md:h-auto">
