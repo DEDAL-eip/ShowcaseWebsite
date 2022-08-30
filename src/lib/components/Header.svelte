@@ -13,7 +13,7 @@
         <a href="/" class="mr-4 text-2xl font-thin md:mr-8">
             <img src="/Dedal_logo.png" class="mr-3 h-6 sm:h-9" alt="Dedal_logo" />
             <div class="text-2xl font-semibold whitespace-nowrap">
-                Dedal
+                DEDAL
             </div>
         </a>
         <ul class="mr-4 font-bold flex flex-grow items-center gap-4 md:gap-8">
