@@ -21,8 +21,8 @@
         <div class="flex">
             <div class="space-y-12">
                 <div class="font-bold text-white text-4xl">Mais qu'est-ce que DEDAL?</div>
-                <div class="text-white text-xl">DEDAL c’est avant tout le projet de sept étudiants en informatique en difficulté pour trouver des endroits à visiter sur Lille et qui plaisent à tout le groupe.  Aujourd’hui ce groupe d’amis lance DEDAL, leur application mobile qui génère en quelques clics des itinéraires adaptés à l’utilisateur.</div>
-                <div class="text-white text-xl">Mais DEDAL c'est aussi la simplicité de pouvoir visiter une ville et cela dans les meilleures conditions.  Que vous visitez New York pendant une semaine en été sans endroit où vous loger ni se restaurer ou que vous passiez un week-end dans la creuse chez Mami un temps de pluie, DEDAL vous donneras toutes les clefs en main pour trouver vos endroits phares qui vous feront aimer le lieu dans lequel vos êtes.</div>
+                <div class="text-white text-xl">DEDAL c’est avant tout le projet de sept étudiants en informatique en difficulté pour trouver des endroits à visiter sur Lille et qui plaisent à tout le groupe. Aujourd’hui ce groupe d’amis lance DEDAL, leur application mobile qui génère en quelques clics des itinéraires adaptés à l’utilisateur.</div>
+                <div class="text-white text-xl">Mais DEDAL c'est aussi la simplicité de pouvoir visiter une ville et cela dans les meilleures conditions. Que vous visitez New York pendant une semaine en été sans endroit où vous loger ni se restaurer ou que vous passiez un week-end dans la creuse chez Mami un temps de pluie, DEDAL vous donneras toutes les clefs en main pour trouver vos endroits phares qui vous feront aimer le lieu dans lequel vos êtes.</div>
             </div>
             <img src="/Smartphone.png" alt="Dedal demo" />
         </div>

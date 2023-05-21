@@ -1,25 +1,5 @@
-<script context="module" lang="ts">
-    export const load = async({fetch}) => {
-        const res = await fetch("/api/apkVersions")
-        const data = await res.json()
-        var versions: any[] = []
-
-        data.data.map((version: string|any[]) => {
-          versions.push(version.slice(19, -4))
-        })
-
-        versions.sort().reverse()
-
-        return {
-            props: {
-                versions
-            }
-        }
-    }
-</script>
-
 <script lang="ts">
-    import Modal from "../../lib/components/Modal.svelte";
+    import Modal from "../../../lib/components/Modal.svelte";
     let modal;
     export let versions = []
     export let selected = undefined
