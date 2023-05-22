@@ -37,9 +37,6 @@
             </div>
         </div>
     </div>
-
-
-    
     <div class="bg-primary bg-gradient-to-tl from-secondary px-36 pt-36 pb-12 ">
         <div class="space-y-12">
             <div class="font-bold text-white text-center text-4xl">Our timeline:</div>
