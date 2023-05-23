@@ -8,7 +8,6 @@
 
 <div id="theme-container" class="bg-primary">
 	<div>
-		<Header/>
 		<main>
 			<slot />
 		</main>
