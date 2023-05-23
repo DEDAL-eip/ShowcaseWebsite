@@ -1,0 +1,18 @@
+{
+	"/": [],
+	"/api/apkVersions": [
+		"src/routes/api/apkVersions/+server.ts"
+	],
+	"/api/sendMail": [
+		"src/routes/api/sendMail/+server.ts"
+	],
+	"/contact": [],
+	"/download": [
+		"src/routes/download/+page.ts"
+	],
+	"/fr": [],
+	"/fr/contact": [],
+	"/fr/download": [
+		"src/routes/fr/download/+page.ts"
+	]
+}

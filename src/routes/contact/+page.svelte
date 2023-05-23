@@ -17,7 +17,7 @@
       </div>
       <div>
         <label for="message" class="block">Message:</label>
-        <!-- <textarea id="message" name="message" type="text" class="rounded w-full h-60 border" required /> -->
+        <textarea id="message" name="message" class="rounded w-full h-60 border" required />
       </div>
 
       <div class="text-center">
