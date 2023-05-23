@@ -6,7 +6,7 @@
   <div class="py-10 px-72">
     <form action="/api/sendMail" method="POST" class="bg-white rounded space-y-2 p-6">
       <div>
-        <form action="https://formsubmit.co/your@email.com" method="POST">
+        <form action="https://formsubmit.co/arthur.decovemacker@epitech.eu" method="POST">
           <label for="email" class="block">Name:</label>
           <input type="text" name="name" required>
           <label for="email" class="block">Message:</label>
