@@ -23,6 +23,9 @@
             <li>
                 <a href="/contact">Contact</a>
             </li>
+            <li>
+                <a href="/Roadmap">Roadmap</a>
+            </li>
         </ul>
     </nav>
     <div class="flex items-center gap-4 md:gap-8">
