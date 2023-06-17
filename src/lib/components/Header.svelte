@@ -26,6 +26,9 @@
             <li>
                 <a href="/roadmap">roadmap</a>
             </li>
+            <li>
+                <a href="/nouveauté">nouveauté</a>
+            </li>
         </ul>
     </nav>
     <div class="flex items-center gap-4 md:gap-8">
