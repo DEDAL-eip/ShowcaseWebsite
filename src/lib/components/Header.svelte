@@ -24,7 +24,7 @@
                 <a href="/contact">Contact</a>
             </li>
             <li>
-                <a href="/Roadmap">Roadmap</a>
+                <a href="/roadmap">roadmap</a>
             </li>
         </ul>
     </nav>

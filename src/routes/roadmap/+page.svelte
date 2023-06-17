@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>DEDAL: Roadmap</title>
+	<title>DEDAL: roadmap</title>
 </svelte:head>
 
 <div class="h-screen bg-primary bg-gradient-to-tl from-secondary">
