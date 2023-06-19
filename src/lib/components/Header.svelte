@@ -1,6 +1,6 @@
 <script>
     import { page } from '$app/stores';
-    import ApkDownloadButton from '../../ApkDownloadButton.svelte';
+    import ApkDownloadButton from '../../routes/download/ApkDownloadButton.svelte';
 
     let apkFileName = 'Dedal.apk';
 
@@ -10,8 +10,6 @@
         window.location.href=url
 	}
 </script>
-
-<ApkDownloadButton {apkFileName} />
 
 <header class="w-full z-50 sticky top-0 flex items-center px-2 text-lg backdrop-blur-sm transition-transform ease-in md:px-6 bg-white">
     <nav class="flex flex-grow">
