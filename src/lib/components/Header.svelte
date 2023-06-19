@@ -29,6 +29,9 @@
             <li>
                 <a href="/nouveauté">nouveauté</a>
             </li>
+            <li>
+                <a href="/Download">Download</a>
+            </li>
         </ul>
     </nav>
     <div class="flex items-center gap-4 md:gap-8">
