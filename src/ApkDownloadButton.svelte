@@ -2,7 +2,7 @@
     export let apkFileName;
   
     function downloadApk() {
-      const apkFilePath = `./../../public/apk/${apkFileName}`;
+      const apkFilePath = `./../static/${apkFileName}`;
       const link = document.createElement('a');
       link.href = apkFilePath;
       link.download = apkFileName;
