@@ -14,5 +14,7 @@
 	"/fr/contact": [],
 	"/fr/download": [
 		"src/routes/fr/download/+page.ts"
-	]
+	],
+	"/nouveauté": [],
+	"/roadmap": []
 }
