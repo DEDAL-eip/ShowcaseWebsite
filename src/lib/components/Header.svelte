@@ -2,7 +2,7 @@
     import { page } from '$app/stores';
     import ApkDownloadButton from '../../ApkDownloadButton.svelte';
 
-    let apkFileName = 'myapp.apk';
+    let apkFileName = '../../public/Dedal.apk';
 
     function changeToFrench() {
         const url = "/fr" + $page.url.pathname
