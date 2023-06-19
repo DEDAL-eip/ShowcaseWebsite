@@ -4,7 +4,7 @@ export const manifest = {
 	assets: new Set(["Dedal_logo.png","Dedals_team.jpg","Dedals_team.png","Lille.jpg","Smartphone.png","Smartphone_logo.png","Timeline.png","favicon copy.png","favicon.png","robots.txt"]),
 	mimeTypes: {".png":"image/png",".jpg":"image/jpeg",".txt":"text/plain"},
 	_: {
-		client: {"start":"_app/immutable/entry/start.37ab61f1.js","app":"_app/immutable/entry/app.fde655ca.js","imports":["_app/immutable/entry/start.37ab61f1.js","_app/immutable/chunks/index.a5951acf.js","_app/immutable/chunks/singletons.df752471.js","_app/immutable/entry/app.fde655ca.js","_app/immutable/chunks/index.a5951acf.js"],"stylesheets":[],"fonts":[]},
+		client: {"start":"_app/immutable/entry/start.7a6851b6.js","app":"_app/immutable/entry/app.8b54b3ce.js","imports":["_app/immutable/entry/start.7a6851b6.js","_app/immutable/chunks/index.a5951acf.js","_app/immutable/chunks/singletons.089ffc95.js","_app/immutable/entry/app.8b54b3ce.js","_app/immutable/chunks/index.a5951acf.js"],"stylesheets":[],"fonts":[]},
 		nodes: [
 			() => import('./nodes/0.js'),
 			() => import('./nodes/1.js'),

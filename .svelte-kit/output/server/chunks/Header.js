@@ -6,7 +6,7 @@ const ApkDownloadButton = create_ssr_component(($$result, $$props, $$bindings, s
     $$bindings.apkFileName(apkFileName2);
   return `<button>Download APK</button>`;
 });
-let apkFileName = "../../public/apk/Dedal.apk";
+let apkFileName = "test.txt";
 const Header = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let $$unsubscribe_page;
   $$unsubscribe_page = subscribe(page, (value) => value);
