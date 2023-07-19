@@ -5,7 +5,7 @@
 <div class="h-screen bg-primary bg-gradient-to-tl from-secondary">
   <div class="py-10 px-72">
     <div class="font-bold text-white text-center text-6xl">Nouveauté: le projet entre dans sa phase beta.</div>
-    <div class="font-bold text-white text-left text-3xl">Une bêta (ou beta) est un terme couramment utilisé dans le domaine du développement de logiciels, de jeux vidéo et de produits technologiques en général. Elle fait partie du cycle de développement et de test du produit avant sa version finale, qui est souvent appelée "version 1.0" ou "version stable".
+    <div class="text-white text-xl">Une bêta (ou beta) est un terme couramment utilisé dans le domaine du développement de logiciels, de jeux vidéo et de produits technologiques en général. Elle fait partie du cycle de développement et de test du produit avant sa version finale, qui est souvent appelée "version 1.0" ou "version stable".
 
       Lorsqu'un produit, comme un logiciel ou un jeu vidéo, est en cours de développement, il passe généralement par plusieurs étapes successives. La première étape, après le développement initial du produit, est la version alpha. Cette version est destinée à un cercle restreint de développeurs internes ou de testeurs, et elle contient généralement de nombreux bogues et fonctionnalités manquantes. Elle sert à identifier les problèmes majeurs et à réaliser des ajustements fondamentaux.
       
