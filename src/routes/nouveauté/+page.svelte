@@ -6,5 +6,4 @@
   <div class="py-10 px-72">
     <div class="font-bold text-white text-center text-6xl">Our team:</div>
   </div>
-  </div>
 </div>
