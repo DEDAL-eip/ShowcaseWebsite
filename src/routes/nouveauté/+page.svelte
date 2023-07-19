@@ -15,9 +15,11 @@
   </div>
 </div>
 <div class="h-screen bg-primary bg-gradient-to-tl from-secondary">
-  <div class="space-y-7">
-  <div class="text-white text-xl">La phase bêta permet aux développeurs de collecter des données essentielles sur l'utilisation du produit, de détecter les erreurs qui n'avaient pas été identifiées lors de la phase alpha et de récolter des retours précieux pour les améliorations finales avant la sortie officielle.</div>
-  <div class="text-white text-xl">Une fois que les développeurs ont recueilli suffisamment de commentaires et ont corrigé un grand nombre des problèmes signalés, ils peuvent passer à la phase suivante : la version "Release Candidate" (RC). Celle-ci est considérée comme étant très proche de la version finale, et si aucun problème critique n'est découvert, elle peut devenir la version 1.0, qui sera distribuée au grand public.</div>
-  <div class="text-white text-xl">En résumé, une bêta est une étape importante du cycle de développement d'un produit, où une version préliminaire est mise à disposition de testeurs pour identifier et corriger les problèmes avant la sortie officielle. C'est une période cruciale pour peaufiner le produit et s'assurer qu'il répond aux attentes des utilisateurs finaux.</div>
-</div>
+  <div class="py-10 px-72">
+    <div class="space-y-7">
+    <div class="text-white text-xl">La phase bêta permet aux développeurs de collecter des données essentielles sur l'utilisation du produit, de détecter les erreurs qui n'avaient pas été identifiées lors de la phase alpha et de récolter des retours précieux pour les améliorations finales avant la sortie officielle.</div>
+    <div class="text-white text-xl">Une fois que les développeurs ont recueilli suffisamment de commentaires et ont corrigé un grand nombre des problèmes signalés, ils peuvent passer à la phase suivante : la version "Release Candidate" (RC). Celle-ci est considérée comme étant très proche de la version finale, et si aucun problème critique n'est découvert, elle peut devenir la version 1.0, qui sera distribuée au grand public.</div>
+    <div class="text-white text-xl">En résumé, une bêta est une étape importante du cycle de développement d'un produit, où une version préliminaire est mise à disposition de testeurs pour identifier et corriger les problèmes avant la sortie officielle. C'est une période cruciale pour peaufiner le produit et s'assurer qu'il répond aux attentes des utilisateurs finaux.</div>
+  </div>
+  </div>
 </div>
