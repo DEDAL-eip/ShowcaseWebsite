@@ -2,7 +2,7 @@
 	<title>DEDAL: nouveauté</title>
 </svelte:head>
 
-<div class="h-screen bg-primary bg-gradient-to-tl from-secondary px-36 pt-56 pb-22 ">
+<div class="h-screen bg-primary bg-gradient-to-tl from-secondary px-36 pt-36 pb-22 ">
   <div class="py-10 px-72">
     <div class="space-y-7">
     <div class="font-bold text-white text-center text-6xl">Nouveauté: le projet entre dans sa phase beta.</div>
