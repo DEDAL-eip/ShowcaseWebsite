@@ -21,7 +21,7 @@
     <div class="text-white text-xl">Une fois que les développeurs ont recueilli suffisamment de commentaires et ont corrigé un grand nombre des problèmes signalés, ils peuvent passer à la phase suivante : la version "Release Candidate" (RC). Celle-ci est considérée comme étant très proche de la version finale, et si aucun problème critique n'est découvert, elle peut devenir la version 1.0, qui sera distribuée au grand public.</div>
     <div class="text-white text-xl">En résumé, une bêta est une étape importante du cycle de développement d'un produit, où une version préliminaire est mise à disposition de testeurs pour identifier et corriger les problèmes avant la sortie officielle. C'est une période cruciale pour peaufiner le produit et s'assurer qu'il répond aux attentes des utilisateurs finaux.</div>
     <div class="font-bold text-white text-center text-3xl">Comment accéder à notre Beta ?</div>
-    <div class="text-white text-xl">Rien de plus simple il suffit de télécharger sur le bouton "Download APK" dans la barre de navigation du site où vous vous trouver actuellement(téléchargement à effectuer depuis votre portable), une fois le téléchargement terminé depuis votre portable il vous suffit de suivre le tutoriel ci-dessous pous installer l'Apk</div>
+    <div class="text-white text-xl">Rien de plus simple il suffit de télécharger sur le bouton "Download APK" dans la barre de navigation du site où vous vous trouver actuellement(téléchargement à effectuer depuis votre portable), une fois le téléchargement terminé depuis votre portable il vous suffit de suivre le tutoriel ci-dessous pous installer l'Apk.</div>
   </div>
   </div>
 </div>
