@@ -25,3 +25,32 @@
   </div>
   </div>
 </div>
+<div class="h-screen bg-primary bg-gradient-to-tl from-secondary">
+  <div class="py-10 px-72">
+    <div class="space-y-7">
+    <div class="text-white text-xl">Installer une APK sur un appareil Android est assez simple. Voici un court tutoriel pour vous guider à travers le processus :
+
+      Étape 1: Activer les sources inconnues
+      Avant d'installer une APK, vous devez activer l'option "Sources inconnues" dans les paramètres de sécurité de votre appareil. Cela permettra d'installer des applications depuis des sources autres que le Google Play Store.
+      
+      1:Ouvrez les "Paramètres" de votre appareil.
+      2:Faites défiler vers le bas et recherchez l'option "Sécurité" ou "Biométrie et sécurité".
+      3:Recherchez "Sources inconnues" et activez-le. Vous pourriez voir une fenêtre d'avertissement, mais ne vous inquiétez pas, cela est normal.</div>
+    <div class="text-white text-xl">Étape 2: Transférer l'APK sur votre appareil
+        Assurez-vous d'avoir téléchargé l'APK que vous souhaitez installer. Vous pouvez le télécharger depuis un site web ou le recevoir via un email ou une messagerie. Si vous le téléchargez sur votre ordinateur, assurez-vous de le transférer sur votre appareil Android (par câble USB ou via le stockage en ligne, par exemple).</div>
+    <div class="text-white text-xl">Étape 3: Localiser et installer l'APK
+      Une fois que vous avez l'APK sur votre appareil, suivez ces étapes pour l'installer :
+      
+      1:Ouvrez une application de gestion des fichiers sur votre appareil (par exemple, "Fichiers" ou "Gestionnaire de fichiers").
+      2:Naviguez jusqu'à l'endroit où vous avez téléchargé ou sauvegardé l'APK.
+      3:Cliquez sur l'APK pour lancer le processus d'installation. Vous pourriez être invité à confirmer l'installation, appuyez sur "Installer".</div>
+    <div class="text-white text-xl">Étape 4: Autoriser l'installation (si nécessaire)
+      Votre appareil Android peut vous demander d'autoriser l'installation depuis cette source spécifique (le fichier APK que vous avez téléchargé). Cela est normal pour des raisons de sécurité.
+      
+      1:Si une fenêtre contextuelle apparaît, cliquez sur "Paramètres".
+      2:Activez l'interrupteur à côté de "Autoriser à partir de cette source".
+      3:Appuyez sur le bouton "Retour" pour revenir à l'écran d'installation.
+      4:Cliquez à nouveau sur "Installer".</div> 
+ </div>
+  </div>
+</div>
