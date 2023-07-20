@@ -28,6 +28,7 @@
 <div class="h-screen bg-primary bg-gradient-to-tl from-secondary">
   <div class="py-10 px-72">
     <div class="space-y-7">
+    <div class="font-bold text-white text-center text-3xl">Tutoriel:</div>
     <div class="text-white text-xl">Installer une APK sur un appareil Android est assez simple. Voici un court tutoriel pour vous guider à travers le processus :
 
       Étape 1: Activer les sources inconnues
