@@ -32,6 +32,9 @@
             <li>
                 <a href="/nouveauté">nouveauté</a>
             </li>
+            <li>
+                <a href="/blog">blog</a>
+            </li>
             <ApkDownloadButton {apkFileName} />
 
         </ul>
