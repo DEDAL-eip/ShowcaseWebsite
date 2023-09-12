@@ -14,7 +14,7 @@
           <input type="text" name="Message" required>
           <label for="email" class="block font-bold text-Black">Email:</label>
           <input type="email" name="email" required>
-          <button type="submit" class="bg-white rounded space-y-2 p-6">Send</button>
+          <button type="submit" class="bg-Black rounded space-y-2 p-6">Send</button>
      </form>
       </div>
 
