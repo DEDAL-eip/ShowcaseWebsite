@@ -7,14 +7,3 @@
       font-family: Poppins;
     }
 }
-
-<style>
-  .custom-button {
-    background-color: #007bff; /* Couleur d'arrière-plan du bouton */
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-</style>
