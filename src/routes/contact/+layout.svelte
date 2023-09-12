@@ -1,7 +1,6 @@
 <script lang="ts">
 	import '../../app.css';
 	import "flowbite/dist/flowbite.css";
-
 	import Header from '../../lib/components/Header.svelte';
     import Footer from '../../lib/components/Footer.svelte';
 </script>
