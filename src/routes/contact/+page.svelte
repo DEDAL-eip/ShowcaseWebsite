@@ -18,7 +18,7 @@
       </div>
     </div>
     <div class="form-group" style="text-align: center;">
-      <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+      <textarea placeholder="Your Message" class="form-control" name="message" rows="20" required></textarea>
     </div>
     <button type="submit" style="margin-left: 700px; background-color: white;" class="btn btn-lg btn-dark btn-block">Submit Form</button>
   </form>
