@@ -5,7 +5,7 @@
 
 
 <div class="container">
-  <h1 style="margin-left: 700px;">Dedal Contact form</h1>
+  <h1 style="margin-left: 700px;" class="font-bold text-white text-4xl">Dedal Contact form</h1>
   <form target="_blank" action="https://formsubmit.co/arthur.decovemacker@epitech.eu" method="POST">
     <div class="form-group">
       <div class="form-row">
