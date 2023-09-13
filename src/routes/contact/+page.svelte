@@ -20,6 +20,6 @@
     <div class="form-group" style="text-align: center;">
       <textarea placeholder="Your Message" class="form-control" name="message" rows="15" cols="70" required></textarea>
     </div>
-    <button type="submit" style="margin-left: 700px; background-color: white; border: none; padding: 15px 32px; cursor: pointer;" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+    <button type="submit" style="margin-left: 700px; background-color: white; border: 1px; padding: 15px 32px; cursor: pointer;" class="btn btn-lg btn-dark btn-block">Submit Form</button>
   </form>
 </div>
