@@ -11,7 +11,7 @@
         <div class="form-group">
           <div class="form-row">
             <div class="col">
-              <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+              <input type="text" name="name" style="text-align: center;" class="form-control" placeholder="Full Name" required>
             </div>
             <div class="col">
               <input type="email" name="email" class="form-control" placeholder="Email Address" required>
